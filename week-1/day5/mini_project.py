@@ -98,7 +98,7 @@ response_format= {
 }
 
 messages = [message_system,message_user]
-response = chat.completions.create(model=model,messages=messages,response_format=response_format)
+response = client.chat.completions.create(model=model,messages=messages,response_format=response_format)
 answer = response.choices[0].message.content
 
 raw_json = answer
