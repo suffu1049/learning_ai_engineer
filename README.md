@@ -11,5 +11,6 @@ This repository documents my journey of becoming an AI Engineer.
 - Day 2 - Environment Variables & Prompting
 - Day 3 - Tokenization
 - Day 4 - Structured output using pydantic and json
+- Day 5 - Created a mini project
 
 More coming soon...
