@@ -1,20 +1,66 @@
+# -----------------------------
 # Virtual environments
+# -----------------------------
 .venv/
 venv/
+env/
 
+# -----------------------------
 # Environment variables
+# -----------------------------
 .env
+.env.*
 
-# Python
+# -----------------------------
+# Python cache files
+# -----------------------------
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
 
-# VS Code
-.vscode/
+# -----------------------------
+# Build and distribution files
+# -----------------------------
+build/
+dist/
+*.egg-info/
 
-# Python version
+# -----------------------------
+# uv files
+# -----------------------------
 .python-version
 
-# OS files
+# Uncomment this line if you don't want to track the lock file.
+# uv.lock
+
+# -----------------------------
+# VS Code
+# -----------------------------
+.vscode/
+
+# -----------------------------
+# Operating system files
+# -----------------------------
 .DS_Store
 Thumbs.db
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+
+# -----------------------------
+# Jupyter Notebook files
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# Pytest cache
+# -----------------------------
+.pytest_cache/
+
+# -----------------------------
+# Mypy cache
+# -----------------------------
+.mypy_cache/
